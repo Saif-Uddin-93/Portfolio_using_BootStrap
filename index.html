@@ -16,17 +16,37 @@
 <body>
   <!-- main logo / nav -->
   <header class="container-fluid">
-   <div class="row">
-    <div class="title col-3 box">
+   <div class="row d-flex justify-content-center">
+    <div class="title col-2 box">
       Saif Uddin
     </div>
-    <div class="nav-bar col-5 offset-3 box d-flex justify-content-evenly">
-      <nav class="">
-        <a class="" href="#about">About Me</a>
+    <div class="nav-bar col-7 box d-flex justify-content-end">
+      <!-- <nav class="">
+        <a href="#about">About Me</a>
         <a href="#work">Work</a>
         <a href="#contact">Contact Me</a>
         <a href="https://docs.google.com/document/d/147qA1xDVhteFsW3Am481CfVLUmVrBpYAqI1zl976m00/view" target="_blank">Resume</a>
+      </nav> -->
+
+      <nav class="navbar nav-bar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about">About Me</a>
+              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
+              <a class="nav-link" href="https://docs.google.com/document/d/147qA1xDVhteFsW3Am481CfVLUmVrBpYAqI1zl976m00/view" target="_blank">Resume</a>
+              <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+            </div>
+          </div>
+        </div>
       </nav>
+      
     </div>
     <div class="container-fluid hero-banner row box d-flex justify-content-end fix-hero-width">
       <p class="col-auto box mx-5 hero-caption">Caption!</p>

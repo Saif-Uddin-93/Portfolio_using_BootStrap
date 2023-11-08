@@ -11,6 +11,12 @@
     background-color: var(--header-dark-color)
   }
 
+  .nav-bar
+  {
+    background-color: var(--header-dark-color)!important;
+    color: var(--header-light-color)!important;
+  }
+
   .fix-hero-width
   {
     /* to fix issue with container-fluid not using full width of viewport */
@@ -54,6 +60,24 @@
       rgba(2, 63, 108, 0.8) 100%);
   }
   
+  a{
+    text-decoration: none;
+  }
+
+ .sub-heading
+  {
+    background-color: var(--content-caption-bg);
+    color: rgb(56, 57, 64);
+    margin-bottom: 1em;
+    padding: 0.25em;
+  }
+  
+.sub-heading p
+  {
+    margin: 0;
+    /* font-size: 0.75em; */
+  }
+
   .python-img {
     background-image: url(https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon-700x697.png);
     background-repeat: no-repeat;
@@ -105,4 +129,15 @@
     background-position-y: center;
     display: flex;
     justify-content: flex-start;
+  }
+
+  ul
+  {
+    list-style: none;
+    padding: 0;
+  }
+
+  .number{
+    /* line-height: 1.1; */
+    margin: 0;
   }

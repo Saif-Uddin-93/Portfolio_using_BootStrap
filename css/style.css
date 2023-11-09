@@ -1,96 +1,114 @@
-:root{
-    --header-dark-color: rgb(56, 57, 64);
-    --header-light-color: rgb(146, 210, 210);
-    --content-font-color: rgb(78, 108, 108);
-    --content-bg: rgb(201, 229, 229);
-    --content-caption-bg: rgba(146, 210, 210, 0.5);
-  }
+:root {
+  --header-dark-color: rgb(56, 57, 64);
+  --header-light-color: rgb(146, 210, 210);
+  --content-font-color: rgb(78, 108, 108);
+  --content-bg: rgb(201, 229, 229);
+  --content-caption-bg: rgba(146, 210, 210, 0.5);
+}
 
-  header
-  {
-    background-color: var(--header-dark-color)
-  }
+header {
+  background-color: var(--header-dark-color)
+}
 
-  .nav-bar
-  {
-    background-color: var(--header-dark-color) !important;
+.nav-bar {
+  background-color: var(--header-dark-color) !important;
     
-  }
-  .nav-link
-  {
-    
-    color: var(--header-light-color) !important;
-  }
+}
 
-  .fix-hero-width
+.nav-link {    
+  color: var(--header-light-color) !important;
+}
+
+/*   .fix-hero-width
   {
-    /* to fix issue with container-fluid not  using full width of viewport */
+    to fix issue with container-fluid not  using full width of viewport
     --bs-gutter-x:0;
-  }
+  } */
 
-  .hero-caption
-  {
-    z-index: 1;
-    margin: auto;
-  }
+.hero-caption {
+  z-index: 1;
+  margin: auto;
+}
 
-  .highlighted-words
-  {
-    background-color: rgba(255, 251, 0, 0.6);
-    /* color: rgb(10, 161, 161); */
-    color: rgb(5, 151, 151);
-  }
+.highlighted-words {
+  background-color: rgba(255, 251, 0, 0.6);
+  /* color: rgb(10, 161, 161); */
+  color: rgb(5, 151, 151);
+}
 
-  .hero-banner
-  {
-    position: relative;
-    background-image: url("../Images/02-hero-bg.jpg");
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background-color: rgba(68, 155, 212, 0.5); */
-    /* background-blend-mode: multiply; */
-    /* margin: 0; */
-    padding: 0;
-  }
+.hero-banner {
+  position: relative;
+  background-image: url("../Images/02-hero-bg.jpg");
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
   
-  .hero-banner::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(
-      rgba(54, 182, 242, 0.4) 0%,
-      rgba(2, 63, 108, 0.8) 100%);
-  }
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    rgba(54, 182, 242, 0.4) 0%,
+    rgba(2, 63, 108, 0.8) 100%);
+}
   
-  a{
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
- .sub-heading
-  {
-    background-color: var(--content-caption-bg);
-    color: rgb(56, 57, 64);
-    margin-bottom: 1em;
-    padding: 0.25em;
-  }
-  
-.sub-heading p
-  {
-    margin: 0;
+.col-1 {
+  width: 10%;
+}
+
+main h2 {
+  padding-right: 10px;
+  margin: 0px 30px;
+  text-align: end;
+  height: auto;
+  border-right: solid var(--content-font-color)
+}
+
+.sub-heading {
+  background-color: var(--content-caption-bg);
+  color: rgb(56, 57, 64);
+  margin-bottom: 1em;
+  padding: 0.25em;
+}
+
+
+.sub-heading p {
+  margin: 0;
     /* font-size: 0.75em; */
-  }
+}
 
-  .python-img {
+.content {
+  /* gap: 1rem; */
+  padding:0;
+}
+
+.work-container {
+  gap: 1rem;
+}
+
+.work-content {
+  border: solid 0.2em var(--header-light-color);
+  background-color: var(--content-bg);
+  padding: 0;
+  /* margin: 0px 15px; */
+}
+
+.python-img {
     background-image: url(https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon-700x697.png);
     background-repeat: no-repeat;
     background-size: auto 80%;
     background-position-x: center;
     background-position-y: center;
-    display: flex;
     height: 100%;
+    padding: 0;
   }
   
   .art-img {
@@ -99,8 +117,8 @@
     background-size: auto 100%;
     background-position-x: center;
     background-position-y: center;
-    display: flex;
     height: 100%;
+    padding: 0;
   }
   
   .uni-img {
@@ -110,9 +128,8 @@
     background-size: auto 90%;
     background-position-x: center;
     background-position-y: center;
-    display: flex;
-    justify-content: flex-start;
     height: 100%;
+    padding: 0;
   }
   
   .hr-img {
@@ -121,8 +138,8 @@
     background-size: auto 80%;
     background-position-x: center;
     background-position-y: center;
-    display: flex;
-    justify-content: flex-start;
+    height: 100%;
+    padding: 0;
   }
   
   .lt-img {
@@ -132,8 +149,8 @@
     background-size: auto 70%;
     background-position-x: center;
     background-position-y: center;
-    display: flex;
-    justify-content: flex-start;
+    height: 100%;
+    padding: 0;
   }
 
   ul

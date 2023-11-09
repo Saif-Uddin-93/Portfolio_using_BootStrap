@@ -119,10 +119,6 @@ main h2 {
   padding:0;
 }
 
-.work-container {
-  gap: 1rem;
-}
-
 .work-content {
   border: solid 0.2em var(--header-light-color);
   background-color: var(--content-bg);

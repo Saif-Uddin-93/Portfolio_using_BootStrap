@@ -10,20 +10,27 @@ header {
   background-color: var(--header-dark-color)
 }
 
+h1 {
+  margin-top: -5px !important;
+  background-color: var(--header-light-color);
+}
+
 .nav-bar {
   background-color: var(--header-dark-color) !important;
     
 }
 
-.nav-link {    
+header a {
   color: var(--header-light-color) !important;
+  border-bottom: solid var(--header-light-color) !important;
+  padding: 0px 0.5em !important;
 }
 
-/*   .fix-hero-width
-  {
-    to fix issue with container-fluid not  using full width of viewport
-    --bs-gutter-x:0;
-  } */
+.fix-hero-width
+{
+    /* to fix issue with container-fluid not  using full width of viewport */
+  --bs-gutter-x:0;
+}
 
 .hero-caption {
   z-index: 1;
@@ -66,8 +73,10 @@ a {
 
 main h2 {
   padding-right: 10px;
-  margin: 0px 30px;
+  /* margin: 0px 30px; */
   text-align: end;
+  min-width: 140px !important;
+  max-width: 170px !important;
   height: auto;
   border-right: solid var(--content-font-color)
 }
@@ -82,7 +91,7 @@ main h2 {
 
 .sub-heading p {
   margin: 0;
-    /* font-size: 0.75em; */
+  font-size: 0.75em;
 }
 
 .content {
@@ -151,6 +160,10 @@ main h2 {
     background-position-y: center;
     height: 100%;
     padding: 0;
+  }
+
+  #contact-content {
+    height: 100%;
   }
 
   ul

@@ -68,6 +68,10 @@ header .active
   color: rgb(5, 151, 151);
 }
 
+.highlighted-words strong {
+  color: rgb(5, 151, 151);
+}
+
 .hero-banner {
   position: relative;
   background-image: url("../Images/02-hero-bg.jpg");

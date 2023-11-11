@@ -1,11 +1,13 @@
 # Portfolio made with BootStrap
 
 ## Description
-The purpose of this project is to refactor my original portfolio webpage using BootStrap, to get familiar with the framework. This has been accomplished by implementing semantic HTML, consolidating HTML classes with the same CSS styling, and adding comments to highlight modifications with brief explanations.
+The purpose of this project is to refactor my original portfolio webpage using Bootstrap, to get familiar with the framework. This has been accomplished by implementing bootstrap classes in my HTML elements. Some extra CSS styling has been added to make it look as close as possible to the original portfolio.
 
-Visually and functionally, the end result remains identical to the original version of the webpage, with all changes confined to the HTML and CSS. The primary advantage of these adjustments is to enable other web developers to immediately be able to identify what sections of code affects the different sections of the webpage by looking at the semantic HTML tags, also determining which elements require matching CSS styles by the re-used classes.
+Visually and functionally, the end result remains identical to the original version of the webpage, with all changes confined to the HTML and CSS. The primary advantage of these adjustments is to enable other web developers to immediately be able to identify what sections of the webpage have been manipulated with the Bootstrap classes and also be able to make rapid changes by adding or removing the Bootstrap classes.
 
-[Link to refactored Horiseon web page.](https://saif-uddin-93.github.io/Saif-Horiseon-site/)
+[Link to BootStrap Portfolio web page.](https://saif-uddin-93.github.io/Portfolio_using_BootStrap)
+
+[Link to Original Portfolio web page.](https://saif-uddin-93.github.io/Saif-Portfolio/)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,7 +16,7 @@ Visually and functionally, the end result remains identical to the original vers
 * [License](#license)
 
 ## Installation
-For this project, the developer tool I'll be using is VS Code. A lightweight IDE that allows working in HTML and CSS. It also allows the use of Extensions which can add extra functionality to the tool to help with debugging and making code more readable. The main extension I'll be using is called, Live Server, by Ritwick Dey. The browser that the web page will be used on is Google Chrome and will work on all Chromium based web browsers.
+For this project, the developer tool I'll be using is VS Code. A lightweight IDE that allows working in HTML and CSS. It also allows the use of Extensions which can add extra functionality to the tool to help with debugging and making code more readable. I'll be using Bootstrap by adding the framework using the CDN link in my HTML. The main extension I'll be using is called, Live Server, by Ritwick Dey. The browser that the web page will be used on is Google Chrome and will work on all Chromium-based web browsers.
 
 ## Usage
 Below is a screenshot of parts of the edited HTML and CSS showing comments and removed code:
@@ -22,7 +24,8 @@ Below is a screenshot of parts of the edited HTML and CSS showing comments and r
 ![alt text](assets/images/screenshot.png)
 
 ## Credits
-All assets shown on the web page does not belong to me, they were provided by the bootcamp organisers.
+All assets shown on the web page do not belong to me, they were provided by the bootcamp organisers.
+The Bootstrap framework is also being used 
 
 ## License
 ### MIT License

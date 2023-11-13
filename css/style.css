@@ -60,6 +60,12 @@ header .active
 .hero-caption {
   z-index: 1;
   margin: auto;
+  padding: 0px 10px;
+  background-color: var(--header-light-color);
+  margin-bottom: 3rem;
+  margin-right: 20rem;
+  font-size: 1.5em;
+  scale: 1.25;
 }
 
 .highlighted-words {

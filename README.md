@@ -19,13 +19,15 @@ Visually and functionally, the end result remains identical to the original vers
 For this project, the developer tool I'll be using is VS Code. A lightweight IDE that allows working in HTML and CSS. It also allows the use of Extensions which can add extra functionality to the tool to help with debugging and making code more readable. I'll be using Bootstrap by adding the framework using the CDN link in my HTML. The main extension I'll be using is called, Live Server, by Ritwick Dey. The browser that the web page will be used on is Google Chrome and will work on all Chromium-based web browsers.
 
 ## Usage
-Below is a screenshot of parts of the edited HTML and CSS showing comments and removed code:
+Below is a screenshot of the portfolio using Bootstrap classes:
 
-![alt text](assets/images/screenshot.png)
+![alt text](./Images/screenshot.png)
 
 ## Credits
 All assets shown on the web page do not belong to me, they were provided by the bootcamp organisers.
-The Bootstrap framework is also being used 
+The Bootstrap framework is also being used.
+The Javascript funtionality for applying the active class to navbar links was added with the help of my Tutor Pratikto. The JavaScript paired with the edited BoostStrap class for "active" are additional touches unrelated to the task for this assignment but added for intuitiveness.
+
 
 ## License
 ### MIT License

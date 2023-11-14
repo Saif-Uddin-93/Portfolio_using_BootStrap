@@ -57,6 +57,20 @@ header .active
   --bs-gutter-x:0;
 }
 
+.profile-pic
+{
+  background-image: url(../Images/profile-pic.jpg);
+  height: 18vh;
+  width: 18vh;
+  margin-top: 1vh;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: auto 35vh;
+  background-position-y: -7.5vh;
+  background-position-x: -0.5vh;
+  z-index: 1;
+}
+
 .hero-caption {
   z-index: 1;
   margin: auto;

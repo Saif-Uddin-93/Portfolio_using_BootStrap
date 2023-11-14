@@ -21,7 +21,7 @@ For this project, the developer tool I'll be using is VS Code. A lightweight IDE
 ## Usage
 Below is a screenshot of the portfolio using Bootstrap classes:
 
-![alt text](./Images/screenshot.png)
+![Portfolio Screenshot](./Images/screenshot.png)
 
 ## Credits
 All assets shown on the web page do not belong to me, they were provided by the bootcamp organisers.
